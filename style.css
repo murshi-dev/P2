@@ -1,0 +1,19 @@
+img{
+    width:300px;
+    height:300px;
+}
+.container{
+    display:flex; /*arranges all images in a row*/
+    flex-wrap:wrap; /*brings images with respect to screen size*/
+    justify-content: center; /*brings images to center*/
+       
+}
+.box{
+    padding:5px; /*space between boxes*/
+    opacity:0.8; /*to reduce image opacity*/
+}
+
+.box:hover{ /*image transitions when hovered over*/
+    opacity:1;
+    transition:.9s; /*transition time */
+}
